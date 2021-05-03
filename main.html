@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>1st site</title>
+    <script src="calendar.js"></script>
+  </head>
+  <body>
+    <div>
+      <header id="site-header" class="site-header">
+        <div class="header-left">menu</div>
+        <div class="header-center"></div>
+        <div class="header-right"></div>
+      </header>
+      <main id="main">
+        <div id="main-inner">
+          <div id="content">Content</div>
+
+          <!--사이드바-->
+          <div id="sidebar">
+            sidebar
+            <!--달력-->
+            <div class="calendar">
+              <table id="calendar">
+                <thead>
+                  <tr>
+                    <th><input name="preMon" type="button" value="<" /></th>
+                    <th colspan="5" class="year_mon"></th>
+                    <th><input name="nextMon" type="button" value=">" /></th>
+                  </tr>
+                  <tr>
+                    <th>일</th>
+                    <th>월</th>
+                    <th>화</th>
+                    <th>수</th>
+                    <th>목</th>
+                    <th>금</th>
+                    <th>토</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+            <div>
+              <ul id="menu">
+                <li>
+                  menu1
+                  <ul class="submenu">
+                    <li><a href="">submenu1</a></li>
+                    <li><a href="">submenu2</a></li>
+                    <li><a href="">submenu3</a></li>
+                  </ul>
+                </li>
+                <li>
+                  menu2
+                  <ul class="submenu">
+                    <li><a href="">submenu1</a></li>
+                    <li><a href="">submenu2</a></li>
+                    <li><a href="">submenu3</a></li>
+                  </ul>
+                </li>
+                <li>
+                  menu3
+                  <ul class="submenu">
+                    <li><a href="">submenu1</a></li>
+                    <li><a href="">submenu2</a></li>
+                    <li><a href="">submenu3</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
