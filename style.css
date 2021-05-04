@@ -1,0 +1,55 @@
+body {
+  margin: 0px;
+  background-color: #d1d6ef;
+}
+header {
+  background-color: #a0a5bd;
+  line-height: 40px;
+  width: 100%;
+}
+.header-left {
+  width: auto;
+  text-align: left;
+  padding-left: 30px;
+}
+main {
+  width: 80%;
+  margin: 0 auto;
+  background-color: #ffffff;
+}
+
+#content {
+  width: 70%;
+  height: auto;
+  background-color: #ffffff;
+  float: left;
+}
+
+#sidebar {
+  width: 30%;
+  background-color: azure;
+  float: right;
+  text-align: center;
+  height: 100%;
+}
+#menu {
+  list-style-type: none;
+  text-align: left;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+}
+
+.submenu {
+  list-style-type: none;
+  position: right;
+  display: none;
+}
+
+#calendar {
+  width: 80%;
+  margin: 0 auto;
+}
+.colToday {
+  background-color: #aebfbe;
+}
